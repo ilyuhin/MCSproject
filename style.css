@@ -1,0 +1,59 @@
+body, p, h3 {
+	margin: 0;
+}
+
+header{
+   background-color: #494543;
+}
+
+.menu-main li {display: inline;}
+
+
+.menu-main {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   color: #ffffff;
+}
+
+.head-section {
+	background-color: #494543;
+	color: #ffffff;
+	height: 700px;
+}
+
+.services-section {
+	background-color: #ffffff;
+	height: 570px;
+}
+
+.portfolio-section {
+	background-color: #f7f7f7;
+	height: 1220px;
+}
+
+.about-section {
+	background-color: #ffffff;
+	height: 1667px;
+}
+.team-section {
+	background-color: #f7f7f7;
+	height: 820px;
+}
+
+.clients-section {
+	background-color: #ffffff;
+	height: 165px;
+}
+
+.contact-section {
+	background-color: #222222;
+	color: #ffffff;
+	height: 680px;
+}
+
+.links-section {
+	background-color: #ffffff;
+	height: 90px;
+}
+
