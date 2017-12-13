@@ -1,59 +1,233 @@
-body, p, h3 {
+body {
 	margin: 0;
 }
 
-header{
-   background-color: #494543;
+section {
+	padding-top: 110px;
+	padding-bottom: 110px;
+	margin: 0;
 }
 
-.menu-main li {display: inline;}
+h1 {
+	margin: 55px 0 60px;
+	text-align: center;
+}
 
+h2 {
+	margin: 0;
+	padding-top: 117px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	margin: 0;
+	padding: 2px 0 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	text-align: center;
+	margin: 0;
+	padding: 11px 0 75px;
+	font-style: italic;
+}
+
+.content-width {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media (min-width: 941px) {
+	.content-width {
+		width: 940px;
+		margin: 0 auto;
+	}
+}
+
+.head-section {
+	background-color: #494543;
+	background: url(./img/head-background.jpg);
+	background-size: cover;
+}
+
+header {
+   position: absolute;
+   width: 100%;
+   margin-top: 55px;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none; 
+}
+
+header a:focus {
+	outline: none;
+	text-decoration: underline;
+}
 
 .menu-main {
    padding: 0;
    margin: 0;
    list-style: none;
    color: #ffffff;
+   width: 52%;
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   text-transform: uppercase;
 }
 
-.head-section {
-	background-color: #494543;
-	color: #ffffff;
-	height: 700px;
+
+.menu-main li {
+	display: inline;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
 
-.services-section {
-	background-color: #ffffff;
-	height: 570px;
+.menu-flex {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.button-position {
+	text-align: center;
+}
+
+.btn {
+    background-color: #fed136;
+ 	text-transform: uppercase;
+ 	border: none;
+ 	border-radius: 4px;	
+ 	width: 240px;
+	height: 65px;
+	padding: 25px 50px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.flex-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-item {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services-item:nth-child(n + 1) {
+	margin-top: 50px;
+}
+
+@media (min-width: 651px) {
+	.services-item {
+		width: 31%;
+    }
+
+    .services-item:nth-child(n + 3) {
+	    margin-top: 50px;
+	}
+	   
+}	
+
+.services-item img {
+	margin: 0
+}
+
+.services-item h5 {
+	text-align: center;
+	margin: 25px 0 0;
+}
+
+.services-text {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 5px;
 }
 
 .portfolio-section {
 	background-color: #f7f7f7;
-	height: 1220px;
+}
+
+.portfolio-item {
+	width: 100%;
+	background-color: #ffffff; 
+}
+
+.portfolio-item img {
+	width: 100%;
+	max-height: 100%;
+}
+
+.portfolio-item h5 {
+	text-align: center;
+	margin: 30px 0 0;
+}
+
+.portfolio-item h6 {
+	text-align: center;
+	margin: 0 0 30px;
+}
+
+.portfolio-item:nth-child(n + 2) {
+	margin-top: 50px;
+}
+
+@media (min-width: 401px) {
+	.portfolio-item {
+		width: 48%;
+    }
+
+    .portfolio-item:nth-child(n + 2) {
+	margin-top: 0;
+}
+
+    .portfolio-item:nth-child(n + 3) {
+	    margin-top: 50px;
+}
+
+@media (min-width: 651px) {
+	.portfolio-item {
+		width: 31%;
+    }
+    .portfolio-item:nth-child(n + 3) {
+	    margin-top: 0;
+	}
+	    
+    .portfolio-item:nth-child(n + 4) {
+	    margin-top: 50px;
+    }
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
 
 .about-section {
 	background-color: #ffffff;
-	height: 1667px;
 }
 .team-section {
 	background-color: #f7f7f7;
-	height: 820px;
 }
 
 .clients-section {
-	background-color: #ffffff;
-	height: 165px;
 }
 
 .contact-section {
 	background-color: #222222;
 	color: #ffffff;
-	height: 680px;
 }
 
 .links-section {
-	background-color: #ffffff;
-	height: 90px;
 }
 

@@ -1,0 +1,88 @@
+h1 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 75px;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 40px;
+	font-family: 'DroidSerif';
+}
+
+@font-face {
+	src: url('./fonts/DroidSerif-Italic.ttf');
+	font-family: DroidSerif;
+}
+
+h3 {
+	color: #222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+h4 {
+	color: #777777;
+	font-family: 'DroidSerif';
+	font-size: 16px;
+}
+
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    font-size: 18px;
+	color: #333333;
+}
+
+@font-face {
+	src: url('./fonts/DroidSerif-Italic.ttf');
+	font-family: DroidSerif;
+}
+
+h6 {
+	color: #737373;
+	font-size: 14px;
+	font-family: 'DroidSerif';
+}
+
+@font-face {
+	src: url('./fonts/DroidSerif-Italic.ttf');
+	font-family: DroidSerif;
+}
+
+.btn {
+ 	color: #ffffff; 
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+ 	font-size: 18px;
+ 	text-transform: uppercase;
+ }
+
+.logo {
+	color: #fed136;
+	font-size: 26px;
+	font-family: 'WisdomScript';
+}
+
+@font-face {
+    src: url('./fonts/WisdomScriptAJ.woff');
+	font-family: WisdomScript;
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    font-size: 18px;
+	color: #333333;
+}
+
+.services-text {
+	color: #777777;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 14px;	
+}
+
